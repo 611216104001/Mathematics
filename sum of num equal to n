@@ -1,0 +1,3 @@
+n = int(input())
+pairs = n-1
+print(pairs)
