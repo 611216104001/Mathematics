@@ -1,0 +1,12 @@
+n = int(input())
+char_n = [int(x) for x in str(n)]
+if (len(char_n) > 1):
+    for i in range(0,len(char_n)-1):
+        sum_n = char_n[i] + char_n[i+1]
+else:
+    sum_n = n
+if(sum_n % 3 == 0):
+    print("yes")
+else:
+    print("not")
+    
