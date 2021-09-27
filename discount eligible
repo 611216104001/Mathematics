@@ -1,0 +1,13 @@
+n = int(input())
+tick = list(map(int,input().split()))[:n]
+date = int(input())
+elig = []
+nelig = []
+for i in range(0,n):
+    mod = tick[i] % date
+    if (mod == 0):
+        elig.append(1)
+    else:
+        elig.append(0)
+print(*elig)
+        
