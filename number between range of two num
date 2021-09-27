@@ -1,0 +1,8 @@
+N = int(input())
+LR = list(map(int,input().split()))[:2]
+L = LR[0]
+R = LR[1]
+if (N>L) and (N<R):
+    print('yes')
+else:
+    print('no')
