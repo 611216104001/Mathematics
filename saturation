@@ -1,0 +1,9 @@
+n = int(input())
+char = [int(x) for x in str(n)]
+non_dup = []
+for i in set(char):
+    non_dup.append(char[i])
+if (len(non_dup) == 2):
+    print("Saturated")
+else:
+    print("Unsaturated")
