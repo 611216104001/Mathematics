@@ -1,0 +1,3 @@
+lst = list(map(int,input().split()))[:3]
+rem = (lst[0] * lst[1]) % lst[2]
+print(rem)
