@@ -1,0 +1,7 @@
+n = int(input())
+char = [int(x) for x in str(n)]
+great_num = (char[0] + char[1]) + (char[0] * char[1])
+if (great_num == n):
+    print("Great")
+else:
+    print("no")
